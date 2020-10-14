@@ -1,9 +1,0 @@
-[0915/140619.894:ERROR:process_reader_win.cc(151)] SuspendThread: Adgang nægtet. (0x5)
-[0915/140619.894:ERROR:process_reader_win.cc(151)] SuspendThread: Adgang nægtet. (0x5)
-[0915/140619.894:ERROR:process_reader_win.cc(151)] SuspendThread: Adgang nægtet. (0x5)
-[0915/140619.894:ERROR:process_reader_win.cc(123)] NtOpenThread: {Adgang nægtet} En proces har anmodet om adgang til et objekt, men har ikke fået disse rettigheder. (0xc0000022)
-[0915/140619.894:ERROR:process_reader_win.cc(123)] NtOpenThread: {Adgang nægtet} En proces har anmodet om adgang til et objekt, men har ikke fået disse rettigheder. (0xc0000022)
-[0915/140619.894:ERROR:exception_snapshot_win.cc(99)] thread ID 8008 not found in process
-[0915/140619.894:ERROR:exception_snapshot_win.cc(99)] thread ID 14964 not found in process
-[0915/140619.894:ERROR:process_reader_win.cc(123)] NtOpenThread: {Adgang nægtet} En proces har anmodet om adgang til et objekt, men har ikke fået disse rettigheder. (0xc0000022)
-[0915/140619.894:ERROR:exception_snapshot_win.cc(99)] thread ID 4240 not found in process
