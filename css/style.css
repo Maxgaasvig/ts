@@ -169,6 +169,7 @@ a:active {
     font-weight: bold;
     justify-content: center;
     display: flex;
+    padding-top: 10%;
 }
 
 #tilmeldh2 {
