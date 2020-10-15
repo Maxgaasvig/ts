@@ -34,11 +34,10 @@
     </header>
 
 
-    <h1 id="tilmeldh1">Tilmeld dit hold</h1>
-    <h2 id="tilmeldh2">Det er kun din holdkaptajn, som kan gøre dette</h2>
+    <h1 id="deltagerh1">Tilføj deltager</h1>
 
     <div id="boxtekst">
-        <strong>Personlige oplysninger</strong>
+        <strong>Holdmedlemmer</strong>
     </div>
     <form>
 
@@ -60,21 +59,42 @@
 
         <div class="flex">
             <div class="container">
-                <input type="text" name="firmaNavn" autocomplete="off" required>
-                <label for="firmaNavn" class="label-name">
-                    <span class="content-name">Firma Navn</span>
+                <input type="text" name="name" autocomplete="off" required>
+                <label for="name" class="label-name">
+                    <span class="content-name">Navn</span>
                 </label>
             </div>
 
             <div class="container">
-                <input type="text" name="password" autocomplete="off" required>
-                <label for="password" class="label-name">
-                    <span class="content-name">Password</span>
+                <input type="text" name="email" autocomplete="off" required>
+                <label for="email" class="label-name">
+                    <span class="content-name">Email</span>
                 </label>
             </div>
         </div>
+        <div class="flex">
+            <div class="container">
+                <input type="text" name="name" autocomplete="off" required>
+                <label for="name" class="label-name">
+                    <span class="content-name">Navn</span>
+                </label>
+            </div>
+
+            <div class="container">
+                <input type="text" name="email" autocomplete="off" required>
+                <label for="email" class="label-name">
+                    <span class="content-name">Email</span>
+                </label>
+            </div>
+        </div>
+
+        <img id="plusikon" src="images/plusikon.jpg" alt="Billede af tilføjelse af ekstra medlem">
+
+
+
+
         <div id="buttons">
-            <button type="submit" class="betalNu" onclick=btnDeltager()>Næste</button>
+            <button type="submit" class="betalNu" onclick="btnOversigt()" ahref=" ">Næste</button>
         </div>
 
 

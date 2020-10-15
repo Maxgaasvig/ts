@@ -48,7 +48,7 @@ a:active {
 
 .header2 {
     background-color: #16293E;
-      position: fixed;
+    position: fixed;
     top: 0;
     width: 100%;
     padding: 20px;
@@ -190,48 +190,45 @@ a:active {
     line-height: 3;
 }
 
-#flex{
+.flex {
     display: flex;
     padding-left: 14.5%;
 }
 
-#flex1{
-    display: flex;
-    padding-left: 14.5%;
-}
 
-.container{
+
+.container {
     padding-top: 10px;
     width: 40.6%;
     margin-left: 10px;
     position: relative;
     height: 50px;
     overflow: hidden;
-    
+
 }
 
-.container input{
+.container input {
     width: 100%;
     height: 100%;
     color: #595f6e;
     padding-top: 20px;
     border: none;
     outline: none;
-    
+
 }
 
-.container label{
+.container label {
     position: absolute;
     bottom: 0px;
     left: 0%;
     width: 100%;
-    height: 100%; 
+    height: 100%;
     pointer-events: none;
     border-bottom: 1px solid black;
-    
+
 }
 
-.container label::after{
+.container label::after {
     content: "";
     position: absolute;
     height: 100%;
@@ -242,21 +239,24 @@ a:active {
     transform: translateX(-100%);
     transition: transform all 0.3s ease;
 }
-.content-name{
+
+.content-name {
     position: absolute;
     bottom: 5px;
     left 0px;
     transition: all 0.3s ease;
 }
 
-.container input:focus + .label-name .content-name, .container input:valid + .label-name .content-name{
+.container input:focus + .label-name .content-name,
+.container input:valid + .label-name .content-name {
     transform: translateY(-150%);
     font-size: 14px;
     color: #595f6e;
-    
+
 }
 
-.container input:focus + .label-name::after, .container-input:valid + .label-name::after{
+.container input:focus + .label-name::after,
+.container-input:valid + .label-name::after {
     transform: translateX(0%);
 }
 
@@ -287,18 +287,57 @@ a:active {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* ---------------------------------- Her slutter CSS for tilmeld.html ---------------------------------- */
+
+
+/* ---------------------------------- Her starter CSS for deltager.html ---------------------------------- */
+
+#deltagerh1 {
+    font-size: 45px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    padding-top: 10%;
+}
+
+#plusikon{
+    padding-top: 0.5%;
+    padding-left: 14.5%;
+}
+
+
+
+
+
+
+/* ---------------------------------- Her slutter CSS for deltager.html ---------------------------------- */
+
+
+
+/* ---------------------------------- Her starter CSS for oversigt.html ---------------------------------- */
+
+#oversigth1 {
+    font-size: 45px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    padding-top: 10%;
+}
+
+#oversigth2 {
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+/* ---------------------------------- Her slutter CSS for oversigt.html ---------------------------------- */
+
+
+
 
 /* ---------------------------------- Her starter CSS for skridt.html ---------------------------------- */
 
