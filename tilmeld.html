@@ -15,50 +15,55 @@
 </head>
 
 <body>
-   
-        <h1 id="tilmeldh1">Tilmeld dit hold</h1>
-            <h2 id="tilmeldh2">Det er kun din holdkaptajn, som kan gøre dette</h2>
-            
-             <div id="boxtekst">
-                <strong>Fakturaoplysninger</strong>
-            </div>
+
+    <h1 id="tilmeldh1">Tilmeld dit hold</h1>
+    <h2 id="tilmeldh2">Det er kun din holdkaptajn, som kan gøre dette</h2>
+
+    <div id="boxtekst">
+        <strong>Fakturaoplysninger</strong>
+    </div>
     <form>
-        <div id="container">
-            
-            <div id="flexbox1">
 
-            <label for="navn" class="labels"><b>Navn: </b></label>
-            <input type="text" placeholder="indtast navn & efternavn" name="navn" id="navn" required>
-            
-            
-            
-            <label for="email" class="labels"><b>Email: </b></label>
-            <input type="text" placeholder="Indtast Email" name="email" id="email" required>
-            
-            </div>
-            
-            <div id="flexbox2">
-
-            <label for="firmanavn" class="labels"><b>Firma navn:</b></label>
-            <input type="text" placeholder="indtast firmanavn" name="firmanavn" id="firmanavn" required>
-
-            <label for="psw" class="labels"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-            
+        <div id="flex">
+            <div class="container">
+                <input type="text" name="name" autocomplete="off" required>
+                <label for="name" class="label-name">
+                    <span class="content-name">Navn</span>
+                </label>
             </div>
 
-            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-            <div id="buttons">
-            <button type="submit" class="betalNu">Betal nu</button>
-            <button type="submit" class="betalSnere">Betal Senere</button>
-</div>
-
-
+            <div class="container">
+                <input type="text" name="email" autocomplete="off" required>
+                <label for="email" class="label-name">
+                    <span class="content-name">Email</span>
+                </label>
+            </div>
         </div>
+
+<div id="flex1">
+        <div class="container">
+            <input type="text" name="firmaNavn" autocomplete="off" required>
+            <label for="firmaNavn" class="label-name">
+                <span class="content-name">Firma Navn</span>
+            </label>
+        </div>
+
+        <div class="container">
+            <input type="text" name="password" autocomplete="off" required>
+            <label for="password" class="label-name">
+                <span class="content-name">Password</span>
+            </label>
+        </div>
+         </div>
+        <div id="buttons">
+            <button type="submit" class="betalNu">Næste</button>
+        </div>
+
+
 
     </form>
 
-  
+
 
     <!-- scripts -->
     <script src="js/js.js"></script>
