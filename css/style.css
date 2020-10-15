@@ -6,40 +6,6 @@ body {
 
 /* ---------------------------------- Her starter CSS for header index ---------------------------------- */
 
-
-
-/* ---------------------------------- Her slutter CSS for header index ---------------------------------- */
-
-/* ---------------------------------- Her starter CSS for header2 ---------------------------------- */
-
-
-
-
-/* ---------------------------------- Her slutter CSS for header2 ---------------------------------- */
-
-/* ---------------------------------- Her starter CSS for footer ---------------------------------- */
-
-
-
-
-
-
-/* ---------------------------------- Her slutter CSS for footer ---------------------------------- */
-
-/* ---------------------------------- Her starter CSS for index.html ---------------------------------- */
-
-#bodyindex {}
-
-#myVideo {
-    width: 100%;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-    position: absolute;
-}
-
 .content {
     position: fixed;
     top: 0;
@@ -76,6 +42,76 @@ a:active {
     padding-left: 2%;
 }
 
+/* ---------------------------------- Her slutter CSS for header index ---------------------------------- */
+
+/* ---------------------------------- Her starter CSS for header2 ---------------------------------- */
+
+.header2 {
+    background-color: #16293E;
+      position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+
+.header2 ul {
+    font-size: 20px;
+    list-style-type: none;
+    margin: auto;
+}
+
+.header2 li {
+    float: left;
+    padding: 0 4px 0 150px;
+}
+
+.header2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.header2 a:hover,
+a:active {
+    color: #ff8b00;
+}
+
+.header2 img {
+    width: 10%;
+    padding-left: 2%;
+}
+
+
+
+
+
+/* ---------------------------------- Her slutter CSS for header2 ---------------------------------- */
+
+/* ---------------------------------- Her starter CSS for footer ---------------------------------- */
+
+
+
+
+
+
+
+
+/* ---------------------------------- Her slutter CSS for footer ---------------------------------- */
+
+/* ---------------------------------- Her starter CSS for index.html ---------------------------------- */
+
+#bodyindex {}
+
+#myVideo {
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    position: absolute;
+}
 
 
 #indexh1 {
