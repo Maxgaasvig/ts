@@ -43,7 +43,7 @@ body {
 .content {
     position: fixed;
     top: 0;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.8);
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
@@ -51,16 +51,31 @@ body {
 }
 
 .content ul {
-    color: black;
     font-size: 20px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
 }
 
 .content li {
-    display: flex;
+    float: left;
+    padding: 0 4px 0 150px;
 }
+
+.content a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.content a:hover,
+a:active {
+    color: #ff8b00;
+}
+
+.content img {
+    padding-left: 2%;
+}
+
 
 
 #indexh1 {
@@ -152,18 +167,18 @@ body {
     box-sizing: border-box
 }
 
-.labels{
+.labels {
     font-size: 20px;
-    
 }
 
-#flexbox1{
+#flexbox1 {
     display: flex;
 }
 
-#flexbox2{
+#flexbox2 {
     display: flex;
 }
+
 
 /* Full-width input fields */
 input[type=text],
