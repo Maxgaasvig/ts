@@ -113,14 +113,14 @@ body {
 /* ---------------------------------- Her starter CSS for tilmeld.html ---------------------------------- */
 
 
-h1 {
+#tilmeldh1 {
     font-size: 45px;
     font-weight: bold;
     justify-content: center;
     display: flex;
 }
 
-h2 {
+#tilmeldh2 {
     font-size: 40px;
     font-weight: bold;
     justify-content: center;
