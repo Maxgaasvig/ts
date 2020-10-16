@@ -11,21 +11,21 @@
     <meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet">
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
-   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 
 <body>
     <header class="header2">
         <img src="images/tslogo.png" onclick="window.location.href='index.html';" alt="Tæl skridt logo">
-          <ul>
+        <ul>
             <li>
                 <a href="https://www.taelskridt.dk/om-os-2/">Om</a>
             </li>
             <li>
                 <a href="https://www.taelskridt.dk/priser/">Priser</a>
             </li>
-              <li>
+            <li>
                 <a href="skridt.html">Log ind</a>
             </li>
             <li>
@@ -33,42 +33,43 @@
             </li>
         </ul>
     </header>
-   
-   <article id="skridt"> 
-   
-   <h1> Dine skridt </h1>
-   <section id="gem">
-       
-        <form action="/action_page.php">
-  <div class="gemskridt">
-    <hr>
 
-    <label for="email"><b></b></label>
-    <input type="text" placeholder="Indtast dine skridt for i dag" autocomplete="off" name="email" id="email" required>
-      <hr>
+    <article id="skridt">
+
+        <h1> Dine skridt </h1>
+        <section id="gem">
+
+            <form action="/action_page.php">
+                <div class="gemskridt">
+                    <hr>
+
+                    <label for="email"><b></b></label>
+                    <input type="text" placeholder="Indtast dine skridt for i dag" autocomplete="off" name="email" id="email" required>
+                    <hr>
+                </div>
+            </form>
+            <div id="buttonskridt">
+                <button onclick="Gem" class="buttonskridt">Gem</button>
             </div>
-       </form>
-        <div id="buttonskridt">
-            <button onclick="Gem" class="buttonskridt">Gem</button>
-        </div>
-   </section>
-   
-   <section id="resultat">
-       
-       <h2>
-           30.693 i alt
-       </h2>
-       <h2> 121.194 i alt</h2>
-   </section>
-     
-   
-   
-   </article>
-   
-   
+        </section>
+
+        <section id="resultat">
+
+            <h2>
+                30.693 i alt
+            </h2>
+            <h2> 121.194 i alt</h2>
+        </section>
+
+
+
+    </article>
+
+<section id="mapdiv">
     <div id='map'></div>
+    </section>
+    
+    
     <!-- scripts -->
     <script src="js/js.js"></script>
-</body>
-
-</html>
+</body></html>
