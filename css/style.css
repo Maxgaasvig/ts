@@ -50,7 +50,8 @@ a:active {
     background-color: #16293E;
     top: 0;
     width: 100%;
-    padding: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     display: flex; 
 }
 
@@ -170,7 +171,7 @@ a:active {
     font-weight: bold;
     justify-content: center;
     display: flex;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 #tilmeldh2 {
@@ -298,7 +299,7 @@ a:active {
     font-weight: bold;
     justify-content: center;
     display: flex;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 #plusikon {
@@ -322,7 +323,7 @@ a:active {
     font-weight: bold;
     justify-content: center;
     display: flex;
-    padding-top: 7%;
+    padding-top: 3%;
 }
 
 #oversigth2 {
@@ -411,7 +412,7 @@ a:active {
 /* ---------------------------------- Her starter CSS for skridt.html ---------------------------------- */
 
 #skridt h1 {
-    padding-top: 10%;
+    padding-top: 5%;
     font-size: 2em;
     text-align: center;
 }
@@ -455,7 +456,7 @@ a:active {
     width: 50%;
 }
 
-.skridtboxes {
+.ugeDage {
     width: 100%;
     border: 1px solid black;
     text-align: center;
@@ -515,7 +516,7 @@ a:active {
 }
 
 #mapdiv {
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;
 }
 
@@ -530,41 +531,39 @@ a:active {
 }
 
 
-
-
 /* Overwrite default styles of hr */
 hr {
     border: 1px solid #ffffff;
 }
 
 
-#fangskridt {
-    position: absolute;
-}
-#resultat {
+#skridtresultat{
     display: flex;
-    position: relative;
-    left: 114%;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-#resultat h2 {
-    position: relative;
+#skridtresultat h2{
     text-decoration: underline;
+    
 }
 
-#resultat h3 {
-    position: relative;
-    padding-top: 5.3%;
-    color: grey;
+#skridtPAlt{
+    padding-right: 5%;
 }
 
-#dskridt {
-    left: -23%;
+
+
+.skridtAlt{
+    margin-top: -20px;
+    text-align: center;
+    color: dimgray;
+    
 }
 
-#hskridt {
-    left: -27%;
-}
+
+
+
 
 
 

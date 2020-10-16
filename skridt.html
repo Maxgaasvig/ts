@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -44,7 +44,7 @@
                     <hr>
 
                     <label for="email"><b></b></label>
-                    <input type="text" placeholder="Indtast dine skridt for i dag" autocomplete="off" name="email" id="email" required>
+                    <input type="text" placeholder="Indtast dine skridt for i dag" autocomplete="off" name="email" id="saveSkridt" required>
                     <hr>
                 </div>
             </form>
@@ -52,19 +52,50 @@
                 <button onclick="Gem" class="buttonskridt">Gem</button>
             </div>
         </section>
+   
+   <div id="skridtresultat">
+      <div id="skridtPAlt">
+          <h2> 30.693 i alt</h2>
+          <h3 class="skridtAlt">Dine skridt</h3>
+      </div>
+      <div id="skridtHAlt">
+          <h2> 121.194 i alt</h2>
+          <h3 class="skridtAlt">Holdets skridt</h3>
+      </div>
+   </div>
+   
+   
+    </article>
+    
+    <strong id="uge">Uge 31</strong>
+    <div class="skridtoversigtbox">
+        <div id="box1" class="ugeDage">
+            <p>Mandag</p>
+        </div>
+        <div id="box2" class="ugeDage">
+            <p>Tirsdag</p>
+        </div>
 
-       <div id="fangskridt">
-        <section id="resultat">
-            <h2>
-                30.693 i alt
-            </h2>
-            <h3 id="dskridt"> Dine skridt </h3>
-            <h2> 121.194 i alt</h2>
-            <h3 id="hskridt"> Holdets skridt</h3>
-        </section>
+        <div id="box3" class="ugeDage">
+            <p>Onsdag</p>
+        </div>
+        <div id="box4" class="ugeDage">
+            <p>Torsdag</p>
+        </div>
+        <div id="box5" class="ugeDage">
+            <p>Fredag</p>
+        </div>
+        <div id="box6" class="ugeDage">
+            <p>Lørdag</p>
+        </div>
+        <div id="box7" class="ugeDage">
+            <p>Søndag</p>
+        </div>
+        <div id="box8" class="ugeDage">
+            <p>Samlet skridt</p>
+        </div>
     </div>
 
-    
 
     <div class="skridtoversigtbox">
         <input type="text" placeholder="Dine skridt" autocomplete="off" name="skridt" id="skridtbox" required>
@@ -83,29 +114,29 @@
 
 <strong id="uge">Uge 32</strong>
     <div class="skridtoversigtbox">
-        <div id="box1" class="skridtboxes">
+        <div id="box1" class="ugeDage">
             <p>Mandag</p>
         </div>
-        <div id="box2" class="skridtboxes">
+        <div id="box2" class="ugeDage">
             <p>Tirsdag</p>
         </div>
 
-        <div id="box3" class="skridtboxes">
+        <div id="box3" class="ugeDage">
             <p>Onsdag</p>
         </div>
-        <div id="box4" class="skridtboxes">
+        <div id="box4" class="ugeDage">
             <p>Torsdag</p>
         </div>
-        <div id="box5" class="skridtboxes">
+        <div id="box5" class="ugeDage">
             <p>Fredag</p>
         </div>
-        <div id="box6" class="skridtboxes">
+        <div id="box6" class="ugeDage">
             <p>Lørdag</p>
         </div>
-        <div id="box7" class="skridtboxes">
+        <div id="box7" class="ugeDage">
             <p>Søndag</p>
         </div>
-        <div id="box8" class="skridtboxes">
+        <div id="box8" class="ugeDage">
             <p>Samlet skridt</p>
         </div>
     </div>
@@ -135,4 +166,5 @@
 
     <!-- scripts -->
     <script src="js/js.js"></script>
-</body></html>
+</body>
+</html>
