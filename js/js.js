@@ -13,9 +13,9 @@ function btnOversigt(){
     location.href="oversigt.html"
 }
 
-
-
-
+function btnSkridt(){
+    location.href="skridt.html"
+}
 mapboxgl.accessToken = 'pk.eyJ1IjoiY2FtaWxsYWI5OCIsImEiOiJja2Zxa2VkeTcwdnltMnBsaDRzbnhtcjIyIn0.0f6fxuXkrn_KJAU0rgUymA';
 var münchen = [10.092,56.145];
 var fod = [10.102,56.146];
