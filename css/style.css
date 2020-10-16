@@ -444,12 +444,68 @@ a:active {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
 .gemskridt input {
     padding: 8%;
     margin-right: 35px;
 }
+
+.skridtoversigtbox {
+    margin: 0 auto;
+    display: flex;
+    width: 50%;
+}
+
+.skridtboxes {
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+
+#skridtbox {
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    padding: 2%;
+    font-size: 20px;
+}
+
+#skridtbox::placeholder {
+    font-size: 15px;
+}
+
+#uge {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+    padding-bottom: 1%;
+}
+
+#gemInfo{
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.gemInfo {
+    background-color: #ff8b00;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    margin: 15px 4px;
+    cursor: pointer;
+}
+
+
+
 
 #map {
     width: 80%;
