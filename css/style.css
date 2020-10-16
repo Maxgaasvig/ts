@@ -321,7 +321,7 @@ a:active {
     font-weight: bold;
     justify-content: center;
     display: flex;
-    padding-top: 10%;
+    padding-top: 7%;
 }
 
 #oversigth2 {
@@ -329,6 +329,74 @@ a:active {
     font-weight: bold;
     justify-content: center;
     display: flex;
+}
+
+#oversigt {
+    margin: 0 auto;
+    background-color: #16293E;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    line-height: 3;
+
+}
+
+.oversigtbox {
+    margin: 0 auto;
+    display: flex;
+    width: 50%;
+}
+
+.boxes {
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.oversigtbox p {
+    font-weight: bold;
+}
+
+#ptekst {
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+
+#betalingoversigt {
+    margin: 0 auto;
+    background-color: #16293E;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    line-height: 3;
+}
+
+#betalingoversigtbox{
+    margin: 0 auto;
+    width: 49.9%;
+    border: 1px solid black;
+}
+
+#betalingoversigtbox p {
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#checkboxes{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 20px;
 }
 
 

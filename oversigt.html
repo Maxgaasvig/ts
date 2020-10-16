@@ -37,70 +37,72 @@
     <h1 id="oversigth1">Oversigt</h1>
     <h2 id="oversigth2">Det er kun din holdkaptajn, som kan betale for holdet.</h2>
 
-    <div id="boxtekst">
-        <strong>Holdmedlemmer</strong>
+    <div id="oversigt">
+        <strong>Oversigt</strong>
     </div>
-    <form>
 
-        <div class="flex">
-            <div class="container">
-                <input type="text" name="name" autocomplete="off" required>
-                <label for="name" class="label-name">
-                    <span class="content-name">Navn</span>
-                </label>
-            </div>
-
-            <div class="container">
-                <input type="text" name="email" autocomplete="off" required>
-                <label for="email" class="label-name">
-                    <span class="content-name">Email</span>
-                </label>
-            </div>
+    <div class="oversigtbox">
+        <div id="box1" class="boxes">
+            <p> Antal deltager</p>
         </div>
 
-        <div class="flex">
-            <div class="container">
-                <input type="text" name="name" autocomplete="off" required>
-                <label for="name" class="label-name">
-                    <span class="content-name">Navn</span>
-                </label>
-            </div>
-
-            <div class="container">
-                <input type="text" name="email" autocomplete="off" required>
-                <label for="email" class="label-name">
-                    <span class="content-name">Email</span>
-                </label>
-            </div>
-        </div>
-        <div class="flex">
-            <div class="container">
-                <input type="text" name="name" autocomplete="off" required>
-                <label for="name" class="label-name">
-                    <span class="content-name">Navn</span>
-                </label>
-            </div>
-
-            <div class="container">
-                <input type="text" name="email" autocomplete="off" required>
-                <label for="email" class="label-name">
-                    <span class="content-name">Email</span>
-                </label>
-            </div>
+        <div id="box2" class="boxes">
+            <p>Deltager pris</p>
         </div>
 
-        <img id="plusikon" src="images/plusikon.jpg" alt="Billede af tilføjelse af ekstra medlem">
+        <div id="box3" class="boxes">
+            <p>Samlet pris</p>
+        </div>
+    </div>
 
-
-
-
-        <div id="buttons">
-            <button type="submit" class="betalNu" onclick="btnSkridt()">Næste</button>
+    <div class="oversigtbox">
+        <div id="box1" class="boxes">
+            <p>4</p>
         </div>
 
+        <div id="box2" class="boxes">
+            <p>75kr</p>
+        </div>
 
+        <div id="box3" class="boxes">
+            <p>300kr</p>
+        </div>
+    </div>
 
-    </form>
+    <div id="ptekst">
+        <p>Alle beløb er inklusiv moms. Priserne varierer alt efter, hvor mange gange deltagerene har deltaget i TælSkridt samme år. </p>
+    </div>
+
+    <div id="betalingoversigt">
+        <strong>Hvordan ønsker du at betale?</strong>
+    </div>
+
+    <div id="betalingoversigtbox">
+        <div>
+            <p>Betalingen sker først når kampagnen starter.</p>
+        </div>
+        <div id="checkboxes">
+            <form>
+                <input type="checkbox" id="Betalingskort" name="Betalingskort" value="Betalingskort">
+                <label for="Betalingskort"> Betalingskort/Netbank</label><br>
+                <input type="checkbox" id="e-fakturering" name="e-fakturering" value="e-fakturering">
+                <label for="e-fakturering"> E-fakturering</label><br>
+                <input type="checkbox" id="Faktura" name="Faktura" value="Faktura">
+                <label for="Faktura"> Jeg ønsker at få tilsendt en faktura</label><br>
+                <input type="checkbox" id="Betalingskode" name="Betalingskode" value="Betalingskode">
+                <label for="Betalingskode"> Betalingskort</label>
+            </form>
+
+        </div>
+
+    </div>
+
+    <div id="buttons">
+        <button type="submit" class="betalNu" onclick="#">Betal nu</button>
+        <button type="submit" class="betalNu" onclick="#">Betal senere</button>
+        
+    </div>
+
 
 
 
