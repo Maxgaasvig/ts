@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     font-size: 17px;
 }
 
@@ -48,11 +48,10 @@ a:active {
 
 .header2 {
     background-color: #16293E;
-    position: fixed;
     top: 0;
     width: 100%;
-    padding: 20px;
-    display: flex;
+    padding: 1%;
+    display: flex; 
 }
 
 .header2 ul {
@@ -92,7 +91,9 @@ a:active {
 
 
 
-
+#footer {
+    padding-top: 5%;
+}
 
 
 
@@ -462,6 +463,9 @@ a:active {
     padding-bottom: 5%;
 }
 
+#mapdiv h3 {
+    text-align: center;
+}
 
 
 .mapboxgl-popup {
@@ -478,14 +482,34 @@ hr {
 }
 
 
+#fangskridt {
+    position: absolute;
+}
 #resultat {
     display: flex;
-    justify-content: center;
+    position: relative;
+    left: 114%;
 }
 
 #resultat h2 {
-    padding: 3%;
+    position: relative;
+    text-decoration: underline;
 }
+
+#resultat h3 {
+    position: relative;
+    padding-top: 5.3%;
+    color: grey;
+}
+
+#dskridt {
+    left: -23%;
+}
+
+#hskridt {
+    left: -27%;
+}
+
 
 
 
