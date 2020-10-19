@@ -569,7 +569,11 @@ hr {
 }
 
 
-
+#pokal {
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+}
 
 
 /* ---------------------------------- Her slutter CSS for skridt.html ---------------------------------- */

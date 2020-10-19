@@ -31,12 +31,13 @@ function showImage() {
 
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiY2FtaWxsYWI5OCIsImEiOiJja2Zxa2VkeTcwdnltMnBsaDRzbnhtcjIyIn0.0f6fxuXkrn_KJAU0rgUymA';
-var münchen = [10.092, 56.145];
+var brabrand= [10.092, 56.145];
 var fod = [10.102, 56.146];
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/camillab98/ckgalwpv7173b19qq0d69j0rr',
-    center: münchen,
+    center: brabrand
+   ,
     zoom: 13
 });
 
