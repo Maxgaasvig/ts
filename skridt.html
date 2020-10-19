@@ -43,16 +43,19 @@
                 <div class="gemskridt">
                     <hr>
 
-                    <label for="email"><b></b></label>
-                    <input type="text" placeholder="Indtast dine skridt for i dag" autocomplete="off" name="email" id="saveSkridt" required>
+                    <label for="gemskridt"><b></b></label>
+                    <input type="text" placeholder="Indtast dine skridt for i dag" autocomplete="off" name="gemskridt" id="saveSkridt" required>
                     <hr>
                 </div>
             </form>
             <div id="buttonskridt">
-                <button onclick="Gem" class="buttonskridt">Gem</button>
+                <button onclick="showImage()" class="buttonskridt">Gem</button>
             </div>
+            
+            <video id="tommelop">
+                <source src="video/tommelop.mp4" type="video/mp4">
+            </video>
         </section>
-   
    <div id="skridtresultat">
       <div id="skridtPAlt">
           <h2> 30.693 i alt</h2>
